@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.site-header.inicio{
+    background-image: url(../img/header.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.cortina{
+    height: 100vh;
+    background-color: rgba(2, 2, 2, 0.37);
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido-header h1{
+ color: #ffffff
+}
+.navegacion > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    border-left: 2px solid white;
+    padding: 0 2rem;
+}
+
+.logo-principal{
+    color: white;
+    font-size: 40px;
+}
+.titulo-header{
+    position: relative;
+    color: white;
+    bottom: 35%;
+    text-align: center;
+}
+.titulo-header hr{
+    margin: auto;
+    width: 50%;
+    height: 0.1rem;
+    background-color: white;
+}
+.titulo-header p{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+
+
+section h1, section> p{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.iconos-nosotros, .col-3-fotos, .col-3-testimonios{
+    /* pone los componentes en una sola linea */
+    display: flex;
+    justify-content: space-around
+}
+
+.icono{
+    /* divide la pantalla en 3 para los componentes  */
+    flex-basis: calc(33.3% - 2rem);
+    /* alinear texto */
+    text-align: center
+}
+.icono img{
+    width: 100%;
+    height: 300px;
+}
+
+.col-3-testimonios hr{
+    width: 70%;
+    margin: auto;
+}
+
+section p{
+    padding: 25px 0;
+}
+.icono p{
+    text-align: justify;
+}
+
+main hr{
+    width: 80%;
+    margin: auto;
+    height: .09rem;
+    background-color: black;
+}
+section{
+    margin: 25px 0;
+}
+
+.icono q{
+    text-align: justify;
+}
+.border-all{
+    border: 1.5px solid black;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.contacto form{
+    width: 50%;
+    margin: auto;
+}
+fieldset{
+    padding: 1.5rem;
+}
+.contacto form textarea{
+    width: 100%;
+}
+fieldset input{
+    width: calc(32.3%);
+    margin: auto;
+}
+ input[type="submit"]{
+    color: white;
+    background-color: black;
+ }
+
+ footer{
+     background-color: black;
+     padding: 30px 0;
+ }
+
+ footer nav{
+    text-align: center;
+    margin: 12px;
+ }
+ footer hr{
+    height: 3px;
+    width: 45%;
+    margin: auto;
+    background-color: white;
+ }
+ footer p{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+ }
